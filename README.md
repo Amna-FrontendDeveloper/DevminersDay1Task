@@ -1,36 +1,12 @@
-# 🎓 DevminersDay1Task
+# React + Vite
 
-A **React-based Student Management Interface** built as part of the **Day 1 task** for the **Devminers Internship** program. This app demonstrates dynamic routing with React Router, sidebar navigation with active state handling, and responsive layout styling using Tailwind CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 📁 Sidebar navigation with 5 menu items
-- ✅ Active menu highlighting using `location.pathname`
-- 🔁 Nested route support for detail pages
-- 🎨 Fully responsive layout using Tailwind CSS
-- ⚛️ Built using React and Vite for fast performance
+## Expanding the ESLint configuration
 
----
-
-## 📂 Pages
-
-- **Dashboard**
-- **Students** (with clickable student detail links)
-- **Teachers** (with dynamic detail route)
-- **Courses**
-- **Reports**
-
----
-
-## 📦 Tech Stack
-
-- React
-- React Router DOM
-- Tailwind CSS
-- Vite
-- Git + GitHub
-- Deployed on Vercel
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
