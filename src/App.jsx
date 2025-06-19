@@ -3,9 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './Components/Layout';
 import Students from './Pages/Students';
 import Teachers from './Pages/Teachers';
-import Dashboard from './pages/Dashboard';
-import Courses from './pages/Courses';
-import Reports from './pages/Reports';
+import Dashboard from './Pages/Dashboard';
+import Courses from './Pages/Courses';
+import Reports from './Pages/Reports';
 import TeacherDetail from './Components/TeacherDetail';
 
 function App() {
